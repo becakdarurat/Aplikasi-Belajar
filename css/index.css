@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+* body {
+  background-color: bisque;
+  overflow: hidden;
+}
+* body main {
+  display: flex;
+  margin-left: 5%;
+  margin-top: 2%;
+  width: 90vw;
+  height: 90vh;
+  border: 2px solid black;
+}
+* body main .left-section {
+  width: 50%;
+  border: 2px solid black;
+}
+* body main .left-section img {
+  width: 100%;
+  height: 100%;
+}
+* body main .right-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  border: 2px solid black;
+}
+* body main .right-section .login {
+  height: 80%;
+  width: 80%;
+  border: 2px solid black;
+}
+* body main .right-section .login h1 {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 50px;
+}
+* body main .right-section .login .with-google {
+  margin-top: 7px;
+  border: 2px solid gray;
+  height: 30px;
+  text-align: center;
+  border-radius: 5px;
+}
+* body main .right-section .login .with-google .i {
+  transform: translateY(3px);
+}
+* body main .right-section .login .with-google a {
+  color: gray;
+  text-decoration: none;
+}
+* body main .right-section .login .with-google hr {
+  border: 1px solid gray;
+  margin-top: 50px;
+}/*# sourceMappingURL=index.css.map */
